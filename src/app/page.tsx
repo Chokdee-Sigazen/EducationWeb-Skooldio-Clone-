@@ -1,4 +1,5 @@
 import Banner from "@/components/Banner";
+import Category from "@/components/Homepage/Category";
 import OnlineCourse from "@/components/Homepage/OnlineCourse";
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
       <div className="h-16"></div>
       <Banner />
       <section className="w-[75%] mx-auto">
+        <Category></Category>
         <OnlineCourse></OnlineCourse>
       </section>
     </div>

@@ -1,6 +1,7 @@
 import Rating from "@mui/material/Rating";
 import React from "react";
 import Carousel from "react-multi-carousel";
+import { motion } from "framer-motion";
 import "react-multi-carousel/lib/styles.css";
 const responsive = {
   desktop: {
@@ -112,10 +113,12 @@ export default function CarouselCard() {
         draggable={true}
         infinite={true}
         removeArrowOnDeviceType={["tablet", "mobile"]}
+        className="py-10"
       >
         {slideCard.map((card, index) => {
           return (
-            <div
+            <motion.div
+              whileHover={{ y: -15 }}
               className="slider bg-white shadow-md h-auto  mx-1 rounded-lg"
               key={index}
             >
@@ -139,10 +142,10 @@ export default function CarouselCard() {
                     className="h-10 w-10 rounded-full bg-cover bg-center"
                     style={{ backgroundImage: `url(${card.author_img})` }}
                   ></div>
-                  <p className="p-2">{card.author}</p>
+                  <p className="p-2 ">{card.author}</p>
                 </div>
               </div>
-            </div>
+            </motion.div>
           );
         })}
       </Carousel>

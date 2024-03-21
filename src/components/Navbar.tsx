@@ -20,7 +20,7 @@ export default function Navbar() {
             return (
               <Link
                 href={topic.href}
-                className={`px-4 20-full h-10 p-2 text-sm rounded-full   ${
+                className={`px-4 20-full  h-10 p-2 text-sm rounded-full   ${
                   index == 6
                     ? "bg-primary text-white hover:bg-accent-primary transition-all"
                     : "hover:text-primary hover:underline"
