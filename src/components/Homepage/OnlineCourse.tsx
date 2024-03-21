@@ -1,7 +1,7 @@
 "use client";
 import { Carousel } from "@material-tailwind/react";
 import Banner from "../Banner";
-import CarouselCard from "./Carousel";
+import CarouselCard from "./CarouselCourse";
 import { useState } from "react";
 
 const tag = [
