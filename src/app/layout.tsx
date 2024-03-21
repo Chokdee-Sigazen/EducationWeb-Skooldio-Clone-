@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Anuphan } from "next/font/google";
 import "./globals.css";
+import Navbar from "@/components/Navbar";
 
 const anuphan = Anuphan({ subsets: ["latin"] });
 
@@ -16,7 +17,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={anuphan.className}>{children}</body>
+      <body className={anuphan.className}>
+        <Navbar />
+        {children}
+      </body>
     </html>
   );
 }
