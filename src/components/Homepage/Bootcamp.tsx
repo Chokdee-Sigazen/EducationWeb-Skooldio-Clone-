@@ -1,4 +1,4 @@
-import CarouselBootcamp from "./CaroselBootcamp";
+import CarouselBootcamp from "./CarouselBootcamp";
 
 export default function Bootcamp() {
   return (

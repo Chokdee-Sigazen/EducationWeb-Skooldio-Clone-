@@ -1,3 +1,5 @@
+import CarouselWorkshop from "./CarouselWorkshop";
+
 export default function Workshop() {
   return (
     <div>
@@ -5,6 +7,7 @@ export default function Workshop() {
       <p className="font-bold mb-4 mt-3 text-[#797979]">
         พัฒนาทักษะอย่างใกล้ชิดกับผู้สอน พร้อมลงมือทำจริง
       </p>
+      <CarouselWorkshop></CarouselWorkshop>
     </div>
   );
 }

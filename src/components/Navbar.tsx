@@ -12,7 +12,7 @@ const topicNavbar = [
 
 export default function Navbar() {
   return (
-    <div className="w-full bg-white  shadow-lg fixed">
+    <div className="w-full bg-white z-40  shadow-lg fixed">
       <div className="w-[75%]  h-16 flex mx-auto  px-6 justify-between items-center ">
         <div className=" h-10 w-24 bg-primary"></div>
         <div className="flex ">

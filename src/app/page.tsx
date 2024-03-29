@@ -2,6 +2,7 @@ import Banner from "@/components/Banner";
 import Bootcamp from "@/components/Homepage/Bootcamp";
 import Category from "@/components/Homepage/Category";
 import OnlineCourse from "@/components/Homepage/OnlineCourse";
+import UpdateSkillPanel from "@/components/Homepage/UpskillPanel";
 import Workshop from "@/components/Homepage/Workshop";
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
         <Bootcamp></Bootcamp>
         <Workshop></Workshop>
       </section>
+      <UpdateSkillPanel></UpdateSkillPanel>
     </div>
   );
 }
